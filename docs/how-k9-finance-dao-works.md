@@ -17,13 +17,13 @@ As the platform is based on 2 networks - Ethereum and Shibarium - its functional
 
 Flowchart of the K9 Finance DAO platform:
 
-<figure><img src="/assets/image (13).png" alt=""><figcaption><p>K9 Finance DAO general use case</p></figcaption></figure>
+<figure><img src="assets/image (13).png" alt=""><figcaption><p>K9 Finance DAO general use case</p></figcaption></figure>
 
 1. Connect your wallet:
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdnnMGDOEfTL9XNsOFzlb0E9CMMGtzbnM3-sXnJH6I458T6J134Q_Qhp1i2x0-hgLgw3sLgaBy4oeFlz46jWSjdqXjeAb6VZi2abajDSj97JCDVA8NSp2wSWbxu8oI6nCZhd4F7Ejs1JA6tf4uZW8DAPUVW?key=RPSFst5cIoGXQstxU_6BQg)
 
-* Choose the Ethereum or Shibarium network in your wallet and click the â€œConnect Walletâ€ button in the upper right corner.
+* Choose the Ethereum or Shibarium network in your wallet and click the Connect Wallet button in the upper right corner.
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfgXkpXZ9HQ0OuMeRbWfDn77bf1k4ibC7N9JQBsoukLk2u7E4GFrB9sxQ8ieu5vtF1t41RpWwTkk1yzY5PgV-xk1_FOihI-UNUn0CLLT2DAIij4o5gPO0dWX0TRqUqb04sPpljXDzTSZWxESuLSxNUx9faZ?key=RPSFst5cIoGXQstxU_6BQg)
 
@@ -33,7 +33,7 @@ Flowchart of the K9 Finance DAO platform:
 
 ### Stake BONE
 
-<figure><img src="/assets/image (15).png" alt=""><figcaption><p>Staking UI</p></figcaption></figure>
+<figure><img src="assets/image (15).png" alt=""><figcaption><p>Staking UI</p></figcaption></figure>
 
 The first step for users to take when trying stake their BONE in the K9 Finance DAO protocol is to `unlock` their tokens. The unlock process approves the knBONE contract to spend the amount to be staked from the user's balance. To unlock tokens, click on the `unlock` button and confirm the transaction in the confirmation page that shows up.
 
@@ -49,9 +49,9 @@ The K9 Finance DAO protocol receives submitted BONE tokens, calculates the curre
 
 Accumulated rewards are re-distributed once a day between the receivers and re-delegated.
 
-### Unstake knBONE[â€‹](https://docs.polygon.lido.fi/how-lido-on-polygon-works/#unstake-tokens) <a href="#unstake-tokens" id="unstake-tokens"></a>
+### Unstake knBONE[](https://docs.polygon.lido.fi/how-lido-on-polygon-works/#unstake-tokens) <a href="#unstake-tokens" id="unstake-tokens"></a>
 
-<figure><img src="/assets/image (17).png" alt=""><figcaption><p>Unstaking UI - Request withdraw</p></figcaption></figure>
+<figure><img src="assets/image (17).png" alt=""><figcaption><p>Unstaking UI - Request withdraw</p></figcaption></figure>
 
 To unstake your staked tokens from the network
 
@@ -76,7 +76,7 @@ To unstake your staked tokens from the network
 10. Next, the system will display a window to confirm the operation. During this transaction, your knBONE tokens in Shibarium will be transferred to Ethereum and debited from your wallet.
     1. For transferring  tokens from Shibarium to Ethereum , the system charges a fee to cover the costs of the transaction fee, the amount is indicated in the Bridging fee field.
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfdO68kx9N6pbbiC6vtZ14W8A56rX_5Yl5w6fT926aANQKevG6Yelcwm9WN6MVJxB0bdYVRmFj_8YiRlOdwt0iwycP0jRWpLSveACC746G1qdvFMGPhZoQCeforGw5uRe8EAPIvREKXv3Vzr-B8CF5XA_Vu?key=RPSFst5cIoGXQstxU_6BQg)
-11. Click the â€œConfirmâ€ button and confirm the transaction in your wallet.
+11. Click the Confirm button and confirm the transaction in your wallet.
     1. Wait for the transaction to complete. It may take longer than the previous transactions. Popup window displays the transaction progress:
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc1_9LXFZu1v8wt1vy5uYlHW7XbnWfh1rTpZGHOQPAr6u87rm2LcmOkwG5T9yvEtE-XuY7R-FojadvoTtgqNmJf-2N5NI32Kx5GCTxKRNWyC8YoMOHOeuDPciLhcAzUFyvMZz3zzQQpsz97KxzHkcVvbf3B?key=RPSFst5cIoGXQstxU_6BQg)
 12. After completing the operation, a window with the NFT of your request will be displayed.
@@ -84,7 +84,7 @@ To unstake your staked tokens from the network
 
 Your request has been created in the system and is awaiting execution. When it is executed, you will be able to receive your BONE tokens. Upon unstaking, you submit your knBONE tokens, and in case of withdrawal request or split you will receive an NFT as a voucher for BONE token claim after the unbonding period.
 
-<figure><img src="/assets/image (18).png" alt=""><figcaption><p>Instant withdraw options</p></figcaption></figure>
+<figure><img src="assets/image (18).png" alt=""><figcaption><p>Instant withdraw options</p></figcaption></figure>
 
 When you decide to unstake your tokens by Instant Withdraw, you may be offered to split your unstake between the instant withdrawal and withdrawal request if the amount you want to unstake exceeds the available instant reward balance. You are free to use this 'split' option or refuse and unstake the available amount:
 
@@ -99,7 +99,7 @@ When you decide to unstake your tokens by Instant Withdraw, you may be offered t
    1. Reward fee - fee for withdrawal of funds through Instant Withdraw.
    2. Exchange rate - BONE:knBONE rate in the system.
 3. Click on the Unstake button
-   1. If you are connected to the wrong network, the system will prompt you to switch to Shibarium. Click on the â€œSwitch to Shibariumâ€ button and confirm the action in your wallet.
+   1. If you are connected to the wrong network, the system will prompt you to switch to Shibarium. Click on the Switch to Shibarium button and confirm the action in your wallet.
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfWZ-Nd8G-dBghzyDPWbCl2vCHpm-prJ-Ge3gjDjI6-fYSvcoJqLpySPJ-dG1c87jDj5Yt271oRLCdCkcDvW6F07sqX9tHSh_VDR0KHudOxKskITjKt4XnsWgPG9L-ohepHz7UHKg5rubWhu-8lWldC_Fb_?key=RPSFst5cIoGXQstxU_6BQg)
       1. Wait while the system switches to another network and refreshes the page.
       2. Click on the Unstake button.&#x20;
@@ -109,7 +109,7 @@ When you decide to unstake your tokens by Instant Withdraw, you may be offered t
 6. Next, the system will display a window to confirm the operation. During this transaction, your knBONE tokens in Shibarium will be transferred to the target network and debited from your wallet.
    1. For the transfer of tokens from Shibarium to Ethereum, the system charges a commission to cover the costs of the transaction fee, the amount is indicated in the Bridging fee field.
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfdO68kx9N6pbbiC6vtZ14W8A56rX_5Yl5w6fT926aANQKevG6Yelcwm9WN6MVJxB0bdYVRmFj_8YiRlOdwt0iwycP0jRWpLSveACC746G1qdvFMGPhZoQCeforGw5uRe8EAPIvREKXv3Vzr-B8CF5XA_Vu?key=RPSFst5cIoGXQstxU_6BQg)
-7. Click the â€œConfirmâ€ button and confirm the transaction in your wallet.
+7. Click the Confirm button and confirm the transaction in your wallet.
    1. Wait for the transaction to complete. It may take longer than the previous transactions. Popup window displays the transaction progress:
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfs3biLqG6EgjnpauHg4FiTS42nyXZj-e2LkErKITLlSO38ju097F4ZggPrLhFUwseZUbknTAOxRGNJcTwSZDQhEEsxW930iZ1Ht0wTx0GMORuQbwTXxfNhj80Nxs1xLmZb8C0ss43bZk5k2eYzIiT1haE?key=RPSFst5cIoGXQstxU_6BQg)
 8. When the transaction is complete, the popup will display the transaction result:
@@ -117,14 +117,14 @@ When you decide to unstake your tokens by Instant Withdraw, you may be offered t
 
 BONE tokens are credited to your wallet on the target network (Ethereum Mainnet or Sepolia).
 
-### Claim BONE[â€‹](https://docs.polygon.lido.fi/how-lido-on-polygon-works/#claim-tokens) <a href="#claim-tokens" id="claim-tokens"></a>
+### Claim BONE[](https://docs.polygon.lido.fi/how-lido-on-polygon-works/#claim-tokens) <a href="#claim-tokens" id="claim-tokens"></a>
 
-<figure><img src="/assets/image (19).png" alt=""><figcaption><p>Claiming UI</p></figcaption></figure>
+<figure><img src="assets/image (19).png" alt=""><figcaption><p>Claiming UI</p></figcaption></figure>
 
 After the unbonding period, a user will be able to submit his NFT to K9 Finance DAO. NFT gets burned and user receives his BONE. To claim your tokens, click on the claim tab:
 
 1. In the "My Requests" field, select requests.
-2. Click the â€œClaimâ€ button in the â€œRewardâ€ field and confirm the transaction in your wallet. A popup window displays the transaction progress:
+2. Click the Claim button in the Reward field and confirm the transaction in your wallet. A popup window displays the transaction progress:
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc4ujjq7WqllxcCLM-7l5jmpmxq1PtE-1MNEFQfbgX0NI89Zjz4BrgilsDzv5MvhJi1SYmVfNmBm73b6PQjITlzusYsvBK0l63Q4-WUrbuAAO3bJoeIqpaWBSoyHao6pJKrAY78N_A1wVT31jLYh0sc6Xg?key=RPSFst5cIoGXQstxU_6BQg)&#x20;
 3. Wait for the transaction to complete. BONE tokens will be credited to your wallet.
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdq-hGt7vKdH1WJrk6hTosfr42YtZyX2XRg13GpnXNeoCVxB0gAvrh-V4Gr5IylIWm5qOZYq8oXgXtYvAjLPJ208oZb9f9z6Z6LWc1j61Srbhwlhjylc7Z93tp9e2kiL88AFodgLwGJdKeAf4Ar1VOBWLU?key=RPSFst5cIoGXQstxU_6BQg)
@@ -135,7 +135,7 @@ The K9 Finance DAO Farming pools allow you to be an active participant in our de
 
 ### Stake/Unstake
 
-<figure><img src="/assets/image (20).png" alt=""><figcaption><p>Farming pool, Staking UI</p></figcaption></figure>
+<figure><img src="assets/image (20).png" alt=""><figcaption><p>Farming pool, Staking UI</p></figcaption></figure>
 
 To start farming using "Stake" option, you need the LP tokens of knBONE/BONE pair from Shibaswap. Once you have the LP, you are ready to deposit:
 
@@ -158,7 +158,7 @@ Once the unstake transaction is completed, you will receive your previously depo
 
 ### Zap/Unzap
 
-<figure><img src="/assets/image (21).png" alt=""><figcaption><p>Farming Pool, Zapping UI</p></figcaption></figure>
+<figure><img src="assets/image (21).png" alt=""><figcaption><p>Farming Pool, Zapping UI</p></figcaption></figure>
 
 If you don't want to provide liquidity or simply don't have the LP tokens, there is the Zapping option to participate in farming. The difference is that you can deposit your knBONE or BONE tokens and start farming, and the rest will be done automatically. Zapping fee is applied for both entering and exiting the farming pool.
 
@@ -192,7 +192,7 @@ Once the unzap transaction is completed, you will receive your BONE or knBONE to
 
 Farming functionality goes beyond standard reward structures. We offer multiple **Bonus reward pools** to incentivize participation and magnify your rewards. These special reward pools provide additional rewards from our partners on top of the base rewards earned through regular staking and zapping.
 
-<figure><img src="/assets/image (22).png" alt=""><figcaption><p>Bonus rewards</p></figcaption></figure>
+<figure><img src="assets/image (22).png" alt=""><figcaption><p>Bonus rewards</p></figcaption></figure>
 
 No extra actions are required to receive these rewards. The only requirement is that you need to have the staked or zapped deposit in the farming pool while bonus rewards are being distributed. Your bonus reward share is the same as the main reward. So, the bigger your deposit, the more bonus rewards you receive.
 
@@ -202,7 +202,7 @@ The Real Yield Staking functionality empowers you to unlock the earning potentia
 
 ### Lock/Withdraw
 
-<figure><img src="/assets/image (23).png" alt=""><figcaption><p>Lock KNINE - Real Yield Staking</p></figcaption></figure>
+<figure><img src="assets/image (23).png" alt=""><figcaption><p>Lock KNINE - Real Yield Staking</p></figcaption></figure>
 
 To start staking at Real Yield Staking with the Lock option, you need to choose the lockup period and lock your KNINE tokens in the staking protocol. The longer you lock, the larger your deposit boost and rewards will be:
 
@@ -242,7 +242,7 @@ Once the unstake transaction is completed, you will receive your previously depo
 
 ### Stake/Withdraw
 
-<figure><img src="/assets/image (24).png" alt=""><figcaption><p>Stake KNINE - Real Yield Staking</p></figcaption></figure>
+<figure><img src="assets/image (24).png" alt=""><figcaption><p>Stake KNINE - Real Yield Staking</p></figcaption></figure>
 
 To start staking at Real Yield Staking with Stake option, you need to simply deposit your KNINE to staking protocol. No locking is applied, you are free to deposit and withdraw anytime. Staking earns the rewards at a base rate:
 
@@ -271,7 +271,7 @@ The Vesting app at K9 Finance DAO empowers you to unlock the value of your esKNI
 
 ### Deposit/Claim
 
-<figure><img src="/assets/image (25).png" alt=""><figcaption><p>esKNINE Vesting UI</p></figcaption></figure>
+<figure><img src="assets/image (25).png" alt=""><figcaption><p>esKNINE Vesting UI</p></figcaption></figure>
 
 
 !!! tip

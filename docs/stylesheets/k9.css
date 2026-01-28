@@ -46,3 +46,19 @@ body {
 .md-typeset code {
   border-radius: 6px;
 }
+/* K9 highlight: brand-tinted background + force readable text */
+.md-typeset mark,
+.md-typeset mark * {
+  background: rgba(239, 124, 49, 0.18) !important; /* K9 orange tint */
+  color: #1A1A1A !important;                        /* force readable text */
+  padding: 0.06em 0.22em;
+  border-radius: 0.22em;
+}
+
+/* Ensure links inside highlights look like links */
+.md-typeset mark a,
+.md-typeset mark a * {
+  color: #1A1A1A !important;
+  text-decoration: underline;
+  font-weight: 600;
+}

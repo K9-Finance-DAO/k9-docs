@@ -1,5 +1,6 @@
 site_name: K9 Finance DAO Product Documentation
 docs_dir: docs
+use_directory_urls: false
 theme:
   name: material
   favicon: favicon.ico
