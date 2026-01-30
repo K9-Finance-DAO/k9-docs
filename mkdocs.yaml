@@ -4,6 +4,7 @@ use_directory_urls: false
 theme:
   name: material
   favicon: favicon.ico
+  custom_dir: overrides
 
   nav:
   - Overview: index.md

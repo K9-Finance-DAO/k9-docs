@@ -62,3 +62,62 @@ body {
   text-decoration: underline;
   font-weight: 600;
 }
+/* --- K9 fixed top banner (always visible) --- */
+:root {
+  --k9-topbar-height: 44px; /* tweak if you want taller */
+}
+
+.k9-topbar {
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--k9-topbar-height);
+  z-index: 5000;
+
+  display: flex;
+  align-items: center;
+
+  background: rgba(239, 124, 49, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+.k9-topbar__inner {
+  width: 100%;
+  text-align: center;
+  padding: 0 1rem;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--k9-fg);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.k9-topbar__inner a {
+  margin-left: .5rem;
+  text-decoration: underline;
+  font-weight: 700;
+  color: var(--k9-fg);
+}
+
+/* Push Material header + content down so nothing overlaps the banner */
+.md-header {
+  top: var(--k9-topbar-height) !important;
+}
+
+.md-main {
+  padding-top: var(--k9-topbar-height) !important;
+}
+
+/* Sidebars also need the offset (desktop + mobile) */
+.md-sidebar {
+  top: calc(var(--md-header-height) + var(--k9-topbar-height)) !important;
+}
+
+
+
