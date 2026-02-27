@@ -4,9 +4,10 @@ description: K9 Finance DAO Ecosystem Overview
 
 **K9 Sunset Notice**
 
-**K9 Shibarium products are shutting down due to the Shibarium bridge hack.**
-**Remove tokens from K9 products by Feb 25, 2026.**
-[→ DAO Vote Results ←](https://snapshot.org/#/s:k9safe.eth/proposal/0x952ffa3317c173e72b4ee38cd3075ac47f661996d8a23c29487d1b40a984dd91)
+**K9 products were shut down due on Feb 25, 2026 due to the Shibarium bridge hack.**
+
+**Shibarium KNINE holders can view snapshot details in the**
+[→ Bonecrusher App ←](https://app.k9finance.com/)
 
 **This project is in the process of sun-down and transition to an independent DAO following governance approval. The foundation has discontinued its involvement.**
 
